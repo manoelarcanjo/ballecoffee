@@ -1,0 +1,13 @@
+main {
+    display: flex;
+    flex-direction: column;
+
+    .hero {
+        background-color: $bg-hero-color;
+        max-width: 1120px;
+        height: 60vh;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+

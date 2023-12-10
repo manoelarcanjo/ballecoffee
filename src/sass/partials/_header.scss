@@ -1,0 +1,38 @@
+body {
+    background-color: $primary-color;
+    color: $white-color;
+}
+
+header {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1120px;
+        margin: auto;
+        padding: 1.5rem 10rem;
+
+        a {
+            color: $git-color;
+            font-weight: 600;
+        }
+
+        .logo {
+            font-family: 'Teko', sans-serif;
+            font-size: 2rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .menu {
+            display: flex;
+            gap: 1.5rem;   
+                       
+            li {
+                a {
+                    color: $nav-gray-color;
+                }
+            }
+        }
+    }
+}

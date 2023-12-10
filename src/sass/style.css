@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600&family=Montserrat:wght@400;700;800&family=Roboto:wght@400;500;700&family=Teko:wght@600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,5 +6,50 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  color: black;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  background-color: #1F1517;
+  color: #ffffff;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1120px;
+  margin: auto;
+  padding: 1.5rem 10rem;
+}
+header nav a {
+  color: #fff2e7;
+  font-weight: 600;
+}
+header nav .logo {
+  font-family: "Teko", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+header nav .menu {
+  display: flex;
+  gap: 1.5rem;
+}
+header nav .menu li a {
+  color: rgba(255, 242, 231, 0.5019607843);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+main .hero {
+  background-color: #181012;
+  max-width: 1120px;
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */

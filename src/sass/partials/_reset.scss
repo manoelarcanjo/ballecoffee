@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600&family=Montserrat:wght@400;700;800&family=Roboto:wght@400;500;700&family=Teko:wght@600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,5 +7,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    color: $black-color;
+    color: $white-color;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
 }
