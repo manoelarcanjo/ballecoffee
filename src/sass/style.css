@@ -46,10 +46,183 @@ main {
   display: flex;
   flex-direction: column;
 }
-main .hero {
+main .hero-primary {
   background-color: #181012;
+}
+main .hero {
   max-width: 1120px;
   height: 60vh;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+  padding: 0 2rem;
+  margin: auto;
+  overflow: clip;
+}
+main .hero-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .hero-conteudo hr {
+  border: solid 1px #A45A49;
+  width: 50%;
+}
+main .hero-conteudo h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+main .hero-conteudo .hero-subtitulo {
+  font-family: "Inter", sans-serif;
+  color: #c7bab3;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+main .hero-imagens-container {
+  max-width: 45%;
+  -moz-column-count: 4;
+       column-count: 4;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  margin: -1rem;
+}
+main .hero-imagens-container figure {
+  margin: 0.5rem;
+}
+main .hero-imagens-container figure img {
+  width: 135%;
+}
+main .botao-container {
+  width: 100%;
+  max-width: 1120px;
+  margin: auto;
+  transform: translate("0, -50%");
+}
+main button {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #A45A49;
+}
+main .receitas {
+  display: flex;
+  flex-direction: column;
+  max-width: 1120px;
+  padding: 3rem 2rem;
+  margin: auto;
+}
+main .receitas .header-receitas {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .receitas .header-receitas .titulo-receitas {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff2e7;
+}
+main .receitas .header-receitas .subtitulo-receitas {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #c7bab3;
+}
+main .receitas-card-container {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+main .card-receitas {
+  background-color: #241A1C;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex-basis: 29rem;
+  margin-top: 2rem;
+}
+main .header-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+main .cards-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .card-titulo {
+  color: #fff2e7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+main .card-avaliacao {
+  color: #756A67;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+main .card-descricao {
+  color: #c7bab3;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+main .autor-card {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+main .nome-autor {
+  color: #c7bab3;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.destaque {
+  font-family: "Epilogue", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.marrom {
+  color: #A45A49;
+}
+
+.amarelo {
+  color: #E7A80E;
+}
+
+footer {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #23181A;
+}
+footer .footer-copy {
+  color: #fff2e7;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+footer .footer-autor {
+  color: #756A67;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+footer .footer-autor a {
+  color: #756A67;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */

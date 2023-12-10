@@ -1,0 +1,29 @@
+footer {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: $footer-color;
+
+    .footer-copy {
+        color: $git-color;
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .footer-autor {
+        color: $avaliacao-color;
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+
+        a {
+            color: $avaliacao-color;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    }
+}
